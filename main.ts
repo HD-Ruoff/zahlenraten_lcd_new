@@ -24,4 +24,8 @@ I2C_LCD1602.LcdInit(39)
 I2C_LCD1602.clear()
 Zufall = randint(1, 9)
 Zahl = 5
+basic.showNumber(Zufall)
 I2C_LCD1602.ShowNumber(Zufall, 0, 1)
+basic.pause(1000)
+I2C_LCD1602.clear()
+basic.clearScreen()
